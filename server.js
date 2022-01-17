@@ -9,7 +9,7 @@ const passport = require('passport')
 const { DB, PORT, SECRET } = require('./config')
 const { jwt } = require('jsonwebtoken')
 // const e = require('express')
-var fileupload = require('express-fileupload');
+const fileupload = require('express-fileupload');
 
 
 //Initialize the app
