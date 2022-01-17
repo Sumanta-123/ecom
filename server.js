@@ -9,6 +9,8 @@ const passport = require('passport')
 const { DB, PORT, SECRET } = require('./config')
 const { jwt } = require('jsonwebtoken')
 // const e = require('express')
+var fileupload = require('express-fileupload');
+
 
 //Initialize the app
 const app = express()
@@ -18,8 +20,18 @@ require('./middlewares/passport')(passport)
 //Body parser
 app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true }))
+app.use(fileupload({
+    useTempFiles : true,
+    // tempFileDir : '/tmp/'
+}))
 //User router middleware
 app.use('/api/users', require('./routes/users'))
+//Category router middleware 
+app.use('/api/', require('./routes/category'));
+//Product router
+app.use('/api/', require('./routes/product'));
+//Upload image route 
+app.use('/api/', require('./routes/upload'))
 // Connect to DB
 mongoose.connect(DB, {
     // useCreateIndex: true,

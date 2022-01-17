@@ -25,6 +25,10 @@ const userSchema = new Schema({
         type: String,
         required: true,
         // length: 6
+    },
+    cart: {
+        type: Array,
+        default: []
     }
 
 },{timestamps: true})
