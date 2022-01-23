@@ -7,7 +7,7 @@ const productSchema = new Schema({
         trim: true,
         required: true
     },
-        title: {
+    title: {
         type: String,
         trim: true,
         required: true
@@ -43,9 +43,13 @@ const productSchema = new Schema({
     price: {
         type: Number,
         required: true
-    }
+    },
+    // shop_id: {
+    //     type: String,
+    //     required: true
+    // }
     
-})
+},{timestamps: true})
 
 
 module.exports = model('products', productSchema)

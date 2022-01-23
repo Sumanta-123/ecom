@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const productController = require('../controllers/productController');
-const { userAuth, checkRole } = require('../utils/Auth')
+const { userAuth, checkRole, serializeUser } = require('../utils/Auth')
 
 //Create products 
 router.route('/products')
