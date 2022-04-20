@@ -1,0 +1,17 @@
+@import "../../style/Colors.scss";
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  & div {
+    width: 25%;
+    margin-right: 1rem;
+    display: flex;
+  }
+}
+.bgPrimary {
+  background-color: $bgWhite;
+}
+.bgSecondary {
+  background-color: $bgSecondaryColor;
+}

@@ -1,0 +1,11 @@
+.navBar {
+  background-color: #fedbd0;
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navBar div {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0.3rem;
+}/*# sourceMappingURL=Navbar.css.map */

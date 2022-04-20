@@ -1,0 +1,8 @@
+@import "../../style/Colors.scss";
+.homeContainer {
+  width: 100%;
+  display: flex;
+  color: $textPrimaryColor;
+  flex-direction: column;
+  padding: 2rem 0rem;
+}

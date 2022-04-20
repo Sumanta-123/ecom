@@ -1,0 +1,78 @@
+$mdc-typography-styles-headline1: (
+  font-family: unquote("Roboto"),
+  font-size: 6rem,
+  letter-spacing: -0.094rem,
+  font-weight: Light,
+);
+$mdc-typography-styles-headline2: (
+  font-family: unquote("Roboto"),
+  font-size: 3.75rem,
+  letter-spacing: -0.031rem,
+  font-weight: Light,
+);
+$mdc-typography-styles-headline3: (
+  font-family: unquote("Roboto"),
+  font-size: 3rem,
+  letter-spacing: 0rem,
+  font-weight: Normal,
+);
+$mdc-typography-styles-headline4: (
+  font-family: unquote("Roboto"),
+  font-size: 2.375rem,
+  letter-spacing: 0.016rem,
+  font-weight: Normal,
+);
+$mdc-typography-styles-headline5: (
+  font-family: unquote("Roboto"),
+  font-size: 1.563rem,
+  letter-spacing: 0rem,
+  font-weight: Normal,
+);
+$mdc-typography-styles-headline6: (
+  font-family: unquote("Roboto"),
+  font-size: 1.25rem,
+  letter-spacing: 0.009rem,
+  font-weight: Medium,
+);
+$mdc-typography-styles-body1: (
+  font-family: unquote("Roboto"),
+  font-size: 1rem,
+  letter-spacing: 0.031rem,
+  font-weight: Normal,
+);
+$mdc-typography-styles-body2: (
+  font-family: unquote("Roboto"),
+  font-size: 0.875rem,
+  letter-spacing: 0.016rem,
+  font-weight: Normal,
+);
+$mdc-typography-styles-subtitle1: (
+  font-family: unquote("Roboto"),
+  font-size: 1rem,
+  letter-spacing: 0.009rem,
+  font-weight: Normal,
+);
+$mdc-typography-styles-subtitle2: (
+  font-family: unquote("Roboto"),
+  font-size: 0.875,
+  letter-spacing: 0.006rem,
+  font-weight: Medium,
+);
+@mixin mdc-typography-styles-button {
+  font-family: unquote("Roboto");
+  font-size: 0.875;
+  letter-spacing: 0.078rem;
+  font-weight: Medium;
+}
+@mixin mdc-typography-styles-overline {
+  font-family: unquote("Roboto");
+  font-size: 0.875;
+  letter-spacing: 0.025rem;
+  font-weight: Normal;
+}
+@mixin mdc-typography-styles-caption {
+  font-family: unquote("Roboto");
+  font-size: 0.875;
+  letter-spacing: 0.094rem;
+  font-weight: Normal;
+}

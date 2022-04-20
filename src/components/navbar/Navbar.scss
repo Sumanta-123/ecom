@@ -1,0 +1,13 @@
+@import "../../style/Colors.scss";
+
+.navBar {
+  background-color: $bgPrimaryColor;
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  & div {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0.3rem;
+  }
+}

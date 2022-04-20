@@ -1,0 +1,17 @@
+.searchItems {
+  background-color: #fffbfa;
+  color: #442c2e;
+  border: 1px solid #442c2e;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 50vw;
+}
+.searchItems input[name=searchItems] {
+  width: 100%;
+  padding: 0.4rem 0.4rem;
+  font-family: Roboto;
+  font-size: 0.875;
+  letter-spacing: 0.094rem;
+  font-weight: Normal;
+}/*# sourceMappingURL=SearchItems.css.map */

@@ -1,0 +1,16 @@
+@import "../../style/Colors.scss";
+@import "../../style/Fonts.scss";
+.searchItems {
+  background-color: $bgSecondaryColor;
+  color: $textPrimaryColor;
+  border: 1px solid $textPrimaryColor;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 50vw;
+  & input[name="searchItems"] {
+    width: 100%;
+    padding: 0.4rem 0.4rem;
+    @include mdc-typography-styles-caption;
+  }
+}

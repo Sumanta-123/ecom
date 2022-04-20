@@ -1,0 +1,14 @@
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  flex-wrap: wrap;
+}
+.bgPrimary {
+  background-color: white;
+}
+
+.bgSecondary {
+  background-color: #f7f7f7;
+} /*# sourceMappingURL=Product.css.map */
